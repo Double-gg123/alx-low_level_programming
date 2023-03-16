@@ -1,8 +1,9 @@
 #include <stdio.h>
- /**
- * main - A programthat prints a line with puts function
+
+/**
+ * main - Entry point. Prints a line with puts function
  *
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
