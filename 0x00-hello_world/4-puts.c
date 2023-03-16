@@ -1,10 +1,10 @@
-#!/bin/bash
+# !/ bin / bash
 #include <stdio.h>
-/**
- * main - Calls puts and prints string
+ /**
+ * main - Entry point
  *
- * Return: 0 on success
- */
+ * Return: Always 0 (Success)
+ * /
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
