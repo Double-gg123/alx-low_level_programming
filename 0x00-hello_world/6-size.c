@@ -5,28 +5,15 @@
  * Return: Always 0 (Success)
  */
 
-int main()
+int main(void)
 {
-    printf("Size of char: %d byte(s)\n", sizeof(char));
-    printf("Size of int: %d byte(s)\n", sizeof(int));
-    printf("Size of short: %d byte(s)\n", sizeof(short));
-    printf("Size of long: %d byte(s)\n", sizeof(long));
-    printf("Size of long long: %d byte(s)\n", sizeof(long long));
-    printf("Size of float: %d byte(s)\n", sizeof(float));
-    printf("Size of double: %d byte(s)\n", sizeof(double));
-    printf("Size of long double: %d byte(s)\n", sizeof(long double));
-
-    // Check if machine is 32-bit or 64-bit
-    if (sizeof(void*) == 4) {
-        printf("This machine is 32-bit.\n");
-    }
-    else if (sizeof(void*) == 8) {
-        printf("This machine is 64-bit.\n");
-    }
-    else {
-        printf("Unknown machine architecture.\n");
-    }
-
-    return 0;
+printf("Size of char: %d byte(s)\n", sizeof(char));
+printf("Size of int: %d byte(s)\n", sizeof(int));
+printf("Size of short: %d byte(s)\n", sizeof(short));
+printf("Size of long: %d byte(s)\n", sizeof(long));
+printf("Size of long long: %d byte(s)\n", sizeof(long long));
+printf("Size of float: %d byte(s)\n", sizeof(float));
+printf("Size of double: %d byte(s)\n", sizeof(double));
+printf("Size of long double: %d byte(s)\n", sizeof(long double));
 }
 
