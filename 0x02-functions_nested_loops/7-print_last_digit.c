@@ -19,4 +19,3 @@ lastDig = (n % 10) * -1;
 _putchar('0' + lastDig);
 return (lastDig);
 }
-Footer
