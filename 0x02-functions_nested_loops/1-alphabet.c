@@ -1,16 +1,16 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- *  print_alphabet - Enty point
- *
- *  Return: Always 0 (Success)
+ *print_alphabet - abcd
+ *Description: print lowercase alphabet
+ *Return: void.
  */
-
 void print_alphabet(void)
 {
 	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
-		putchar(c);
-	putchar('\n);
+	{
+		_putchar(c);
+	}
+	_putchar("/n");
 }
