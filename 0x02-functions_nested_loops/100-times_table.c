@@ -1,5 +1,3 @@
- File  44 lines (39 sloc)  711 Bytes
-
 #include "main.h"
 /**
  *print_times_table - n times table.
@@ -43,4 +41,4 @@ void print_times_table(int n)
 			_putchar('\n');
 		}
 	}
-}
+}}
