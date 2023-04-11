@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
-/*
- * @size:size of the array
- * @char:char to initialize array with
- * Return: NULL if it fails or
- * Pointer to array
+/**
+ * str_concat - concatenate `s1' and `s2' and return pointer to new string
+ * @s1: string 1
+ * @s2: string 2
+ * Return: NULL
  */
 char *str_concat(char *s1, char *s2)
 {
