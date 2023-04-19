@@ -1,11 +1,11 @@
 /**
-  *int_index - searches for an integer.
+  *int_index - search of  integer.
   *@array: array of integers.
   *@size: number of elements in array.
-  *@cmp: pointer to function used to compare values.
+  *@cmp: pointer to function .
   *
   *Return: index of first element.
-  *-1 if no element is found or siz <= 0.
+  *-1 if no element is found or size <= 0.
   */
 int int_index(int *array, int size, int (*cmp)(int))
 {
