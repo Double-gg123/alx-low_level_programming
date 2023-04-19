@@ -1,7 +1,7 @@
 /**
   *print_name - prints a name.
-  *@name: pointer to name.
-  *@f: function pointer.
+  *@name: pointer to the  name.
+  *@f: function of the pointer.
   *
   *Return: void.
   */
