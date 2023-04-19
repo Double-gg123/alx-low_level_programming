@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-  *main - print opcodes of a given machine.
-  *@argc: number of arguments.
-  *@argv: argument vector.
+  *main -prints codes from a machine
+  *@argc: number of arguments present .
+  *@argv: vector of the argument.
   *
   *Return: 0.
   */
