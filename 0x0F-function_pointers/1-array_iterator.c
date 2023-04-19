@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-  *array_iterator - exectuces a function given as a parameter on each element of an array.
+  *array_iterator - exectuces a function given as a parameter.
   *@array: array of elements.
   *@size: size of array.
   *@action: function of the pointer.
