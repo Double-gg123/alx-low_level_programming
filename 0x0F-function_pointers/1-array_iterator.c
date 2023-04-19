@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
-  *array_iterator - function that executes function given as param.
+  *array_iterator - exectuces a function given as a parameter on each element of an array.
   *@array: array of elements.
   *@size: size of array.
-  *@action: function pointer.
+  *@action: function of the pointer.
   *
   *Return: void.
   */
