@@ -7,14 +7,12 @@
  */
 int get_endianness(void)
 {
-    unsigned int i = 1;
-    char *c = (char *)&i;
+	unsigned int i = 1;
+	char *c = (char *)&i;
 
-    /* if the first byte in memory is the least significant byte, the machine
-     * is little endian; otherwise, it's big endian */
-    if (*c)
-        return (1); /* little endian */
-    else
-        return (0); /* big endian */
+	if (*c)
+		return (1);
+	else
+		return (0); /* big endian */
 }
 
